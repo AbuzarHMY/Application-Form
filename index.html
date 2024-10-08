@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment Form Class 5</title>
+</head>
+<body>
+    <form action="">
+     <fieldset>
+      <h1>Job Application Form</h1>
+
+      <hr>
+
+      <p>Thank you for your interest in working with us. Please check below for available job opportunities
+        <br>
+         that meet your criteria and send your application by filling out the Job Application Form.
+
+         <p>Name
+          <input type="text" name="Username" placeholder="First" size="30" maxlength="20" required="required">
+          <input type="text" name="Username" placeholder="Last" size="30" maxlength="20" required="required">
+        </p>
+
+        <p>Email
+          <input type="email" name="email" placeholder="AbuzarHMY@Example.com" size="30" maxlength="35" required="required">
+          Phone
+          <input type="text" name="Contact" placeholder="+923123456789" size="24" maxlength="18" required="required">
+        </p>
+
+        <p>Country
+          <input type="text" name="Country" placeholder="Pakistan" size="28" maxlength="15" required="required">
+          City
+          <input type="text" name="city" placeholder="Karachi" size="26" maxlength="15" required="required">
+        </p>
+        
+        <p>Address
+          <input type="text" name="Address" placeholder="Lyari town, south karachi, pakistan" size="61" required="required">
+        </p>
+
+        <p>Postal / Zip Code
+          <input type="text" name="postal" placeholder="Lyari town, south karachi, pakistan" size="53" required="required">
+        </p>
+
+        <p>
+          <Label for="username">Bith Date</Label>
+          <input type="date" name="Date">
+        </p>
+
+        <p>
+          <label for="age"> Age: <input type="text" name="age"  placeholder="25-35" size="31" required="required"></label>
+          <br>
+          Gender:
+          <input id="female" type="radio" name="gender" value="f">
+          <label for="Female">Female</label>
+          <input id="male" type="radio" name="gender" value="m">
+          <label for="Male">Male</label>
+         </p>
+
+         <p>What position are you applying for?
+          <br>
+          <select name="job">
+            <option value="PHP">PHP</option>
+            <option value="CTO">CTO</option>
+            <option value="CEO">CEO</option>
+            <option value="Manager">Manager</option>
+          </select>
+        </p>
+         </p>
+
+         <P>Do you speak any languages other than English?
+          <br>
+          <input type="radio" name="Language" value="Yes">Yes
+          <input type="radio" name="Language" value="NO">No
+         </P>
+
+         <p>How did you hear about us?
+          <br>
+          <input type="checkbox" name="detail">Education Agent
+          <br>
+          <input type="checkbox" name="detail">Billboard
+          <br>
+          <input type="checkbox" name="detail">Print / Newspaper
+          <br>
+          <input type="checkbox" name="detail"> Google Search engine
+        </p>
+
+       <p><input type="submit" value="Cancel">  <input type="submit" value="Apply"></p> 
+    
+    </fieldset>
+  </form>
+  
+</body>
+</html>
